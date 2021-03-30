@@ -14,10 +14,6 @@
         </a>
       </div>
 
-      <div>
-        {{ $t("labels.powered-by") }}
-        <a :href="statusfyHomeLink" target="_blank" rel="noopener">Statusfy</a>
-      </div>
     </div>
     <div v-if="$i18n.locales.length > 1" class="footer-language-swticher">
       <template v-for="locale in $i18n.locales">

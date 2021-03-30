@@ -73,6 +73,7 @@
     "vue-svgicon": "3.2.6"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.12.17",
     "@nuxt/types": "0.5.7",
     "@nuxtjs/eslint-config": "2.0.0",
     "@statusfy/test-utils": "0.5.0",
